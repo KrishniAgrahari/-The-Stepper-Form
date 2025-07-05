@@ -1,2 +1,2 @@
-# -The-Stepper-Form
+# The-Stepper-Form
 Stepper Form
