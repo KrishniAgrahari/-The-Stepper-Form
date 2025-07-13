@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,3 +55,61 @@
   <script src="index.js"></script>
 </body>
 </html>
+=======
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Stepper Form</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="form-container">
+    <div class="progressbar">
+      <div class="progress" id="progress"></div>
+      <div class="progress-step progress-step-active">1</div>
+      <div class="progress-step">2</div>
+      <div class="progress-step">3</div>
+      <div class="progress-step">4</div>
+    </div>
+
+    <form id="multi-step-form">
+      <div class="form-step form-step-active">
+        <h2>Step 1</h2>
+        <input type="text" placeholder=" Enter Your Name" required />
+        <button type="button" class="btn-next">Next</button>
+      </div>
+      
+      <div class="form-step">
+        <h2>Step 2</h2>
+        <input type="email" placeholder=" Email" required />
+        <div class="btn-group">
+          <button type="button" class="btn-prev">Back</button>
+          <button type="button" class="btn-next">Next</button>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <h2>Step 3</h2>
+        <input type="password" placeholder="Password" required />
+        <div class="btn-group">
+          <button type="button" class="btn-prev">Back</button>
+          <button type="button" class="btn-next">Next</button>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <h2>Finish</h2>
+        <p>Click submit to complete. </p>
+        <div class="btn-group">
+          <button type="button" class="btn-prev">Back</button>
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+>>>>>>> 1e664c4203b5ab8929b9a9c1d684627724b94d3e
